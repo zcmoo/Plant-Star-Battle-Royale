@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://c30ygjcf5oo4m"]
+
+[ext_resource type="Script" uid="uid://bgdqrqyrs2me5" path="res://Scence/sunflower.gd" id="1_3kty7"]
+[ext_resource type="Texture2D" uid="uid://cv43llnl46t6m" path="res://resource/sunflower_idle_1.png" id="1_7kfuo"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_7kfuo"]
+radius = 4.0
+height = 50.0
+
+[node name="sunflower" type="CharacterBody2D"]
+collision_layer = 2
+script = ExtResource("1_3kty7")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(-48, -96)
+texture = ExtResource("1_7kfuo")
+centered = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+rotation = 1.5708
+shape = SubResource("CapsuleShape2D_7kfuo")

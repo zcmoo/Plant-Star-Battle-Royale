@@ -1,0 +1,37 @@
+[gd_scene load_steps=6 format=3 uid="uid://csxqeeprb43mv"]
+
+[ext_resource type="Texture2D" uid="uid://curalh1wj2sft" path="res://resource/sky.png" id="1_8k32h"]
+[ext_resource type="Texture2D" uid="uid://b4luilhmifskn" path="res://resource/hills.png" id="2_j3sgp"]
+[ext_resource type="PackedScene" uid="uid://do2nkl6yw46pp" path="res://Scence/platform_small.tscn" id="4_duwiw"]
+[ext_resource type="PackedScene" uid="uid://iw2gc3er5aa0" path="res://Scence/platform_big.tscn" id="4_vhsna"]
+[ext_resource type="PackedScene" uid="uid://c30ygjcf5oo4m" path="res://Scence/sunflower.tscn" id="5_duwiw"]
+
+[node name="World" type="Node2D"]
+
+[node name="background" type="Node2D" parent="."]
+
+[node name="sky" type="Sprite2D" parent="background"]
+texture = ExtResource("1_8k32h")
+centered = false
+
+[node name="mountain" type="Sprite2D" parent="background"]
+texture = ExtResource("2_j3sgp")
+centered = false
+
+[node name="platform_small" parent="background" instance=ExtResource("4_duwiw")]
+position = Vector2(305, 254)
+
+[node name="platform_small2" parent="background" instance=ExtResource("4_duwiw")]
+position = Vector2(529, 180)
+
+[node name="platform_small3" parent="background" instance=ExtResource("4_duwiw")]
+position = Vector2(804, 256)
+
+[node name="platform_big" parent="background" instance=ExtResource("4_vhsna")]
+position = Vector2(122, 318)
+
+[node name="actorcontainer" type="Node2D" parent="."]
+y_sort_enabled = true
+
+[node name="sunflower" parent="actorcontainer" instance=ExtResource("5_duwiw")]
+position = Vector2(657, 307)

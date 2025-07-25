@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://do2nkl6yw46pp"]
+
+[ext_resource type="Texture2D" uid="uid://birhdedhkqoj0" path="res://resource/platform_small.png" id="1_3dkxc"]
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_3dkxc"]
+a = Vector2(246, 10)
+
+[node name="platform_small" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_3dkxc")
+centered = false
+
+[node name="Area2D" type="StaticBody2D" parent="."]
+position = Vector2(3, 15)
+collision_mask = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(-1, -5)
+shape = SubResource("SegmentShape2D_3dkxc")
