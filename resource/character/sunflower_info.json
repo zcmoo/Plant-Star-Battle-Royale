@@ -1,0 +1,34 @@
+{
+  "row_1": [
+	"sunflower_attack_ex_1",
+	"sunflower_attack_ex_2",
+	"sunflower_attack_ex_3",
+	"sunflower_attack_ex_4",
+	"sunflower_attack_ex_5",
+	"sunflower_attack_ex_6",
+	"sunflower_attack_ex_7",
+	"sunflower_attack_ex_8",
+	"sunflower_attack_ex_9"
+  ],
+  "row_2": [
+	"sunflower_die_1",
+	"sunflower_die_2"
+  ],
+  "row_3": [
+	"sunflower_idle_1",
+	"sunflower_idle_2",
+	"sunflower_idle_3",
+	"sunflower_idle_4",
+	"sunflower_idle_5",
+	"sunflower_idle_6",
+	"sunflower_idle_7",
+	"sunflower_idle_8"
+  ],
+  "row_4": [
+	"sunflower_run_1",
+	"sunflower_run_2",
+	"sunflower_run_3",
+	"sunflower_run_4",
+	"sunflower_run_5"
+  ]
+}

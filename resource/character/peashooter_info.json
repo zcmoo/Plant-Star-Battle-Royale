@@ -1,0 +1,31 @@
+{
+  "row_1": [
+	"peashooter_attack_ex_1",
+	"peashooter_attack_ex_2",
+	"peashooter_attack_ex_3"
+  ],
+  "row_2": [
+	"peashooter_die_1",
+	"peashooter_die_2",
+	"peashooter_die_3",
+	"peashooter_die_4"
+  ],
+  "row_3": [
+	"peashooter_idle_1",
+	"peashooter_idle_2",
+	"peashooter_idle_3",
+	"peashooter_idle_4",
+	"peashooter_idle_5",
+	"peashooter_idle_6",
+	"peashooter_idle_7",
+	"peashooter_idle_8",
+	"peashooter_idle_9"
+  ],
+  "row_4": [
+	"peashooter_run_1",
+	"peashooter_run_2",
+	"peashooter_run_3",
+	"peashooter_run_4",
+	"peashooter_run_5"
+  ]
+}
