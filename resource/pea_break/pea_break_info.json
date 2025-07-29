@@ -1,0 +1,15 @@
+{
+  "spritesheet_info": {
+    "filename": "pea_break.png",
+    "total_width": 640,
+    "total_height": 64,
+    "rows": 1,
+    "max_columns": 10,
+    "source_folder": "pea_break"
+  },
+  "row_1": [
+    "pea_break_1.png",
+    "pea_break_2.png",
+    "pea_break_3.png"
+  ]
+}

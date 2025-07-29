@@ -3,7 +3,8 @@
 [ext_resource type="Texture2D" uid="uid://birhdedhkqoj0" path="res://resource/platform_small.png" id="1_3dkxc"]
 
 [sub_resource type="SegmentShape2D" id="SegmentShape2D_3dkxc"]
-a = Vector2(246, 10)
+a = Vector2(236, 11)
+b = Vector2(5, 10)
 
 [node name="platform_small" type="Node2D"]
 

@@ -1,0 +1,17 @@
+{
+  "spritesheet_info": {
+    "filename": "sun.png",
+    "total_width": 960,
+    "total_height": 96,
+    "rows": 1,
+    "max_columns": 10,
+    "source_folder": "sun"
+  },
+  "row_1": [
+    "sun_1.png",
+    "sun_2.png",
+    "sun_3.png",
+    "sun_4.png",
+    "sun_5.png"
+  ]
+}

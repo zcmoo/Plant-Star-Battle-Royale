@@ -1,0 +1,18 @@
+{
+  "spritesheet_info": {
+    "filename": "sun_text.png",
+    "total_width": 900,
+    "total_height": 90,
+    "rows": 1,
+    "max_columns": 10,
+    "source_folder": "sun_text"
+  },
+  "row_1": [
+    "sun_text_1.png",
+    "sun_text_2.png",
+    "sun_text_3.png",
+    "sun_text_4.png",
+    "sun_text_5.png",
+    "sun_text_6.png"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "spritesheet_info": {
+    "filename": "particles.png",
+    "total_width": 1280,
+    "total_height": 256,
+    "rows": 2,
+    "max_columns": 10,
+    "source_folder": "particles"
+  },
+  "row_1": [
+    "jump_effect_1.png",
+    "jump_effect_2.png",
+    "jump_effect_3.png",
+    "jump_effect_4.png",
+    "jump_effect_5.png"
+  ],
+  "row_2": [
+    "land_effect_1.png",
+    "land_effect_2.png"
+  ]
+}

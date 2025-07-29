@@ -1,0 +1,16 @@
+{
+  "spritesheet_info": {
+    "filename": "run_effect.png",
+    "total_width": 1280,
+    "total_height": 128,
+    "rows": 1,
+    "max_columns": 10,
+    "source_folder": "run_effect"
+  },
+  "row_1": [
+    "run_effect_1.png",
+    "run_effect_2.png",
+    "run_effect_3.png",
+    "run_effect_4.png"
+  ]
+}

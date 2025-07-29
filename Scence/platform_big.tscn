@@ -16,5 +16,5 @@ centered = false
 collision_mask = 0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(41, 60)
+position = Vector2(40, 53)
 shape = SubResource("SegmentShape2D_2y7o5")

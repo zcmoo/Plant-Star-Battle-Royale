@@ -1,0 +1,17 @@
+{
+  "spritesheet_info": {
+    "filename": "sun_explode.png",
+    "total_width": 1920,
+    "total_height": 192,
+    "rows": 1,
+    "max_columns": 10,
+    "source_folder": "sun_explode"
+  },
+  "row_1": [
+    "sun_explode_1.png",
+    "sun_explode_2.png",
+    "sun_explode_3.png",
+    "sun_explode_4.png",
+    "sun_explode_5.png"
+  ]
+}
